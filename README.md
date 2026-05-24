@@ -1,7 +1,7 @@
-# GPS
-GPS Navigator – Discrete Mathematics Practice 3
+# GPS Navigator – Discrete Mathematics Practice 3
 A Python-based GPS navigation system built on graph theory, developed for the Mathematical Engineering & AI degree at Universidad Pontificia Comillas (ICAI), course 2025-2026.
-Overview
+
+# Overview
 The system builds a weighted directed graph of Madrid's street intersections using OpenStreetMap data (via OSMnx), then finds optimal routes between any two official Madrid addresses using custom implementations of classic graph algorithms.
 Features
 
@@ -12,14 +12,11 @@ Three routing modes: shortest distance, fastest time, and fastest time with traf
 Step-by-step navigation instructions with street names, distances, and turn directions (left/right)
 Visual route display overlaid on the full city graph
 
-Tech Stack
-
+# Tech Stack
 Python · NetworkX · OSMnx · pandas · matplotlib
 
-Project Structure
-
+# Project Structure
 grafo_pesado.py — weighted graph algorithms (Dijkstra, Prim, Kruskal, shortest path)
-
 callejero.py — address parsing, coordinate conversion, street data loading
-
 gps.py — main navigation application
+
