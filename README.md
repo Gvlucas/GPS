@@ -13,9 +13,13 @@ Step-by-step navigation instructions with street names, distances, and turn dire
 Visual route display overlaid on the full city graph
 
 Tech Stack
+
 Python · NetworkX · OSMnx · pandas · matplotlib
+
 Project Structure
 
 grafo_pesado.py — weighted graph algorithms (Dijkstra, Prim, Kruskal, shortest path)
+
 callejero.py — address parsing, coordinate conversion, street data loading
+
 gps.py — main navigation application
