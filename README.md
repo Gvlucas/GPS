@@ -16,7 +16,7 @@ Visual route display overlaid on the full city graph
 Python · NetworkX · OSMnx · pandas · matplotlib
 
 # Project Structure
-grafo_pesado.py — weighted graph algorithms (Dijkstra, Prim, Kruskal, shortest path)
-callejero.py — address parsing, coordinate conversion, street data loading
-gps.py — main navigation application
+grafo_pesado.py — weighted graph algorithms (Dijkstra, Prim, Kruskal, shortest path)  
+callejero.py — address parsing, coordinate conversion, street data loading  
+gps.py — main navigation application  
 
